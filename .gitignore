@@ -1,0 +1,43 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+*.nc
+*.zarr/
+*.hdf5
+*.h5
+*.parquet
+*.npy
+*.npz
+
+# Large files
+data/
+logs/
+*.tar.gz
+
+# Mac
+.DS_Store
+
+# Python
+.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Reports
+*.pdf
+*.html

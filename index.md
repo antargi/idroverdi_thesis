@@ -1,12 +1,12 @@
 # Caracterización de Resiliencia Climática Territorial en un Valle de Hidrógeno
 
-## 🎯 Pregunta de Investigación
+## Pregunta de Investigación
 
 ¿Cómo caracterizar zonas con distinta resiliencia climática en el Valle de Aconcagua usando variables climáticas históricas y proyectadas (CMIP6), autoencoders no supervisados y clusterización?
 
 ---
 
-## 📚 Estructura de la Tesis
+## Estructura de la Tesis
 
 Esta página documenta un estudio integrado que combina:
 
@@ -17,7 +17,7 @@ Esta página documenta un estudio integrado que combina:
 
 ---
 
-## 🗂️ Navegación
+## Navegación
 
 1. **[Introducción](./01_introduction/README.md)** - Contexto, problema, hipótesis
 2. **[Exploración de Datos](./02_data_exploration/README.md)** - Stack de variables climáticas
@@ -29,7 +29,7 @@ Esta página documenta un estudio integrado que combina:
 
 ---
 
-## 🔑 Conceptos Principales
+## Conceptos Principales
 
 ### Índice de Resiliencia Climático-Territorial (IRCT)
 
@@ -51,7 +51,7 @@ Métrica integrada que evalúa la capacidad territorial de mantener su estado fr
 
 ---
 
-## 📊 Resultados Principales
+## Resultados Principales
 
 - Identificación de **3-5 zonas de resiliencia** en Valle de Aconcagua
 - Relación entre **topografía-clima-resiliencia**
@@ -60,7 +60,7 @@ Métrica integrada que evalúa la capacidad territorial de mantener su estado fr
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 **Python stack:**
 - `numpy`, `pandas`, `xarray` - Manipulación de datos multidimensionales
@@ -72,7 +72,7 @@ Métrica integrada que evalúa la capacidad territorial de mantener su estado fr
 
 ---
 
-## 📖 Cómo Navegar
+## Cómo Navegar
 
 Cada sección contiene:
 - **Notebooks interactivos**: Código reproducible
@@ -84,6 +84,6 @@ Para reproducir análisis, ver instrucciones en [Introducción](01_introduction/
 
 ---
 
-**Tesis de Magister en Sistemas Complejos**  
-**Estudiante:** Idrover Díaz  
+**Tesis de Magister en Ingeniería en Informática**  
+**Estudiante:** Antonina A
 **2025-2026**

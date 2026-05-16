@@ -132,16 +132,23 @@ $$IRCT_{pixel,escenario} = 0.30 \cdot S_D + 0.25 \cdot S_C + 0.20 \cdot S_E + 0.
 
 **Componentes:**
 
-| Componente | Símbolo | Fórmula |
-|-----------|---------|---------|
-| **Persistencia** | $S_D$ | $1 - \frac{\|\|z_{future} - z_{base}\|\|}{\|\|z_{base}\|\|}$ |
-| **Identidad** | $S_C$ | $P(\text{cluster}_{\text{future}} = \text{cluster}_{\text{base}})$ |
-| **Cohesión** | $S_E$ | $\frac{\sigma_{base}}{\sigma_{future}}$ (↑ resiliente) |
-| **Elasticidad** | $S_{EL}$ | Velocidad de re-estabilización |
-| **Horizontes** | $H_T$ | Factor de largo plazo |
+- **Persistencia** ($S_D$): $1 - \frac{\|\|z_{future} - z_{base}\|\|}{\|\|z_{base}\|\|}$
+  - Mide distancia en espacio latente entre histórico y futuro
+  
+- **Identidad de Régimen** ($S_C$): $P(\text{cluster}_{\text{future}} = \text{cluster}_{\text{base}})$
+  - Probabilidad de mantener el mismo cluster climático
+  
+- **Cohesión Interna** ($S_E$): $\frac{\sigma_{base}}{\sigma_{future}}$
+  - Razón de variabilidad: contracción = resiliente
+  
+- **Elasticidad** ($S_{EL}$): Velocidad de re-estabilización
+  - Rapidez de ajuste a nuevas condiciones
+  
+- **Horizontes Temporales** ($H_T$): Factor de largo plazo
+  - Descuento temporal para resiliencia sostenida
 
 **Interpretación:**
-- IRCT ∈ [0,1]: 1 = máxima resiliencia, 0 = vulnerabilidad crítica
+- IRCT ∈ [0,1]: donde 1 = máxima resiliencia, 0 = vulnerabilidad crítica
 - Spatial map: Identifica zonas resilientes vs vulnerables
 
 ---
@@ -157,4 +164,4 @@ $$IRCT_{pixel,escenario} = 0.30 \cdot S_D + 0.25 \cdot S_C + 0.20 \cdot S_E + 0.
 
 ## Próximas Secciones
 
-→ [02_data_exploration/](../02_data_exploration/) - Exploración del stack climático
+[02_data_exploration/](../02_data_exploration/) - Exploración del stack climático
