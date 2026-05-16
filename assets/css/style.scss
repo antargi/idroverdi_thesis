@@ -1,0 +1,47 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Responsive improvements */
+body {
+  padding: 20px;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  
+  .wrapper {
+    width: 95%;
+    padding: 10px;
+  }
+  
+  header {
+    width: 100%;
+    position: static;
+    padding: 20px 0;
+  }
+  
+  section {
+    width: 100%;
+    float: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .wrapper {
+    width: 95%;
+    padding: 15px;
+  }
+}
