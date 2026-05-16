@@ -131,11 +131,14 @@ El **Índice de Resiliencia Climático-Territorial** integra:
 $$IRCT_{pixel,escenario} = 0.30 \cdot S_D + 0.25 \cdot S_C + 0.20 \cdot S_E + 0.20 \cdot S_{EL} + 0.05 \cdot H_T$$
 
 **Componentes:**
-- $S_D$ (Persistencia): $1 - \frac{||z_{future} - z_{base}||}{||z_{base}||}$
-- $S_C$ (Identidad): $P(\text{cluster}_{\text{future}} = \text{cluster}_{\text{base}})$
-- $S_E$ (Cohesión): $\frac{\sigma_{base}}{\sigma_{future}}$ (contracción = resiliente)
-- $S_{EL}$ (Elasticidad): Velocidad de re-estabilización
-- $H_T$ (Horizontes): Factor de largo plazo
+
+| Componente | Símbolo | Fórmula |
+|-----------|---------|---------|
+| **Persistencia** | $S_D$ | $1 - \frac{\|\|z_{future} - z_{base}\|\|}{\|\|z_{base}\|\|}$ |
+| **Identidad** | $S_C$ | $P(\text{cluster}_{\text{future}} = \text{cluster}_{\text{base}})$ |
+| **Cohesión** | $S_E$ | $\frac{\sigma_{base}}{\sigma_{future}}$ (↑ resiliente) |
+| **Elasticidad** | $S_{EL}$ | Velocidad de re-estabilización |
+| **Horizontes** | $H_T$ | Factor de largo plazo |
 
 **Interpretación:**
 - IRCT ∈ [0,1]: 1 = máxima resiliencia, 0 = vulnerabilidad crítica
