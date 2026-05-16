@@ -19,13 +19,13 @@ Esta página documenta un estudio integrado que combina:
 
 ## 🗂️ Navegación
 
-1. **[Introducción](01_introduction/)** - Contexto, problema, hipótesis
-2. **[Exploración de Datos](02_data_exploration/)** - Stack de variables climáticas
-3. **[Arquitectura del Modelo](03_model_architecture/)** - Detalles del AE/VAE
-4. **[Clustering & Resiliencia](04_clustering_resilience/)** - Índice de Resiliencia Climático-Territorial (IRCT)
-5. **[Resultados](05_results/)** - Mapas, métricas, análisis sensible
-6. **[Validación](06_validation/)** - Reconstrucción espacial y benchmarking
-7. **[Documentación Técnica](docs/)** - Metodología, ecuaciones, referencias
+1. **[Introducción](./01_introduction/README.md)** - Contexto, problema, hipótesis
+2. **[Exploración de Datos](./02_data_exploration/README.md)** - Stack de variables climáticas
+3. **[Arquitectura del Modelo](./03_model_architecture/README.md)** - Detalles del AE/VAE
+4. **[Clustering & Resiliencia](./04_clustering_resilience/README.md)** - Índice de Resiliencia Climático-Territorial (IRCT)
+5. **[Resultados](./05_results/README.md)** - Mapas, métricas, análisis sensible
+6. **[Validación](./06_validation/README.md)** - Reconstrucción espacial y benchmarking
+7. **[Documentación Técnica](./docs/README.md)** - Metodología, ecuaciones, referencias
 
 ---
 
