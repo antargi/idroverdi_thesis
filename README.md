@@ -1,6 +1,6 @@
 # Tesis: Resiliencia Climática Territorial - Valle de Hidrógeno
 
-Este repositorio contiene el código, datos y documentación de una **tesis de magister en Sistemas Complejos** que estudia la resiliencia climática territorial del Valle de Aconcagua (Chile) mediante técnicas de deep learning y análisis energético.
+Este repositorio contiene el código, datos y documentación de una **tesis de magister en Ingeniería Informática** que estudia la resiliencia climática territorial del Valle de Aconcagua (Chile) mediante técnicas de deep learning y análisis energético.
 
 ## 📋 Contenido
 

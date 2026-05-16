@@ -54,7 +54,7 @@ Correlation:            0.92 ± 0.04 [similar]
 
 ## Notebooks
 
-- [03_spatial_reconstruction_analysis.ipynb](03_spatial_reconstruction_analysis.ipynb) - Análisis detallado de validación espacial
+- [03_spatial_reconstruction_analysis.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/06_validation/03_spatial_reconstruction_analysis.ipynb) - Análisis detallado de validación espacial
 
 ---
 

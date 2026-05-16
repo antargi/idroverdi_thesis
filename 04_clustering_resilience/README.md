@@ -46,9 +46,9 @@ clusters_future = kmeans.predict(z_future)
 
 ## Notebooks en esta Sección
 
-- [07_experiments_1_clustering_1511.ipynb](07_experiments_1_clustering_1511.ipynb) - Clustering con K-means en espacio latente
-- [07_experiments_2_cluster_profiling_1511.ipynb](07_experiments_2_cluster_profiling_1511.ipynb) - Caracterización de perfiles de clusters
-- [09_resilience.ipynb](09_resilience.ipynb) - Cálculo del Índice IRCT
+- [07_experiments_1_clustering_1511.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/04_clustering_resilience/07_experiments_1_clustering_1511.ipynb) - Clustering con K-means en espacio latente
+- [07_experiments_2_cluster_profiling_1511.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/04_clustering_resilience/07_experiments_2_cluster_profiling_1511.ipynb) - Caracterización de perfiles de clusters
+- [09_resilience.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/04_clustering_resilience/09_resilience.ipynb) - Cálculo del Índice IRCT
 
 ---
 

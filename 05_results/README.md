@@ -27,9 +27,9 @@ Visualización: Cinco clusters en Valle de Aconcagua
 
 ### Notebooks en esta Sección
 
-- [11_cluster_metrics_demo.ipynb](11_cluster_metrics_demo.ipynb) - Métricas de clustering (Silhouette, Davies-Bouldin)
-- [12_compare_heatmaps_clean.ipynb](12_compare_heatmaps_clean.ipynb) - Visualización comparativa de escenarios
-- [13_sensitive_analysis.ipynb](13_sensitive_analysis.ipynb) - Análisis de sensibilidad de pesos IRCT
+- [11_cluster_metrics_demo.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/05_results/11_cluster_metrics_demo.ipynb) - Métricas de clustering (Silhouette, Davies-Bouldin)
+- [12_compare_heatmaps_clean.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/05_results/12_compare_heatmaps_clean.ipynb) - Visualización comparativa de escenarios
+- [13_sensitive_analysis.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/05_results/13_sensitive_analysis.ipynb) - Análisis de sensibilidad de pesos IRCT
 
 ---
 

@@ -51,7 +51,7 @@ $$\mathcal{L} = \underbrace{||X - \hat{X}||^2}_{\text{Reconstruction}} + \underb
 
 ## Notebooks
 
-- [02_arquitectura_modelo.ipynb](02_arquitectura_modelo.ipynb) - Definición y entrenamiento del autoencoder
+- [02_arquitectura_modelo.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/03_model_architecture/02_arquitectura_modelo.ipynb) - Definición y entrenamiento del autoencoder
 
 ## Componentes del Modelo
 

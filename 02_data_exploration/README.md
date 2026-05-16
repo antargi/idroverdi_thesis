@@ -15,9 +15,9 @@ Esta sección documenta el exploración exploratorio del stack de datos climáti
 
 | # | Nombre | Descripción |
 |---|--------|-------------|
-| 00 | [00_generate_model_1411.ipynb](00_generate_model_1411.ipynb) | Generación y validación del stack de datos base |
-| 01 | [01_explore_stack_1411.ipynb](01_explore_stack_1411.ipynb) | Exploración visual de variables por región |
-| 02 | [02_preprocess_for_autoencoder_1411.ipynb](02_preprocess_for_autoencoder_1411.ipynb) | Preparación de datos para autoencoder |
+| 00 | [00_generate_model_1411.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/02_data_exploration/00_generate_model_1411.ipynb) | Generación y validación del stack de datos base |
+| 01 | [01_explore_stack_1411.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/02_data_exploration/01_explore_stack_1411.ipynb) | Exploración visual de variables por región |
+| 02 | [02_preprocess_for_autoencoder_1411.ipynb](https://github.com/antargi/idroverdi_thesis/blob/main/02_data_exploration/02_preprocess_for_autoencoder_1411.ipynb) | Preparación de datos para autoencoder |
 
 ---
 

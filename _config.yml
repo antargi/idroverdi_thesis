@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-title: "Caracterización de Resiliencia Climática Territorial en Valle de Hidrógeno"
-description: "Tesis de Magister: Modelado de resiliencia mediante autoencoders, clustering y análisis energético"
-author: "Idrover Díaz"
+title: "Idroverdi: Caracterización de Resiliencia Climática Territorial en Valle de Hidrógeno"
+description: "Tesis de Magister: Modelo de aprendizaje profundo para índice de resiliencia climática para valles de hidrógeno"
+author: "Antonina Arriagada"
 github:
   repository_url: https://github.com/antargi/justh2_pipeline
 show_downloads: false
