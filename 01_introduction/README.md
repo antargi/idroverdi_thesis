@@ -132,23 +132,25 @@ $$IRCT_{pixel,escenario} = 0.30 \cdot S_D + 0.25 \cdot S_C + 0.20 \cdot S_E + 0.
 
 **Componentes:**
 
-- **Persistencia** $(S_D)$: $1 - \frac{d(z_\text{future}, z_\text{base})}{|z_\text{base}|}$
-  - Mide distancia en espacio latente entre histórico y futuro
-  
-- **Identidad de Régimen** $(S_C)$: $P(c_\text{future} = c_\text{base})$
-  - Probabilidad de mantener el mismo cluster climático
-  
-- **Cohesión Interna** $(S_E)$: $\frac{\sigma_\text{base}}{\sigma_\text{future}}$
-  - Razón de variabilidad: contracción = resiliente
-  
-- **Elasticidad** $(S_{EL})$: Velocidad de re-estabilización
-  - Rapidez de ajuste a nuevas condiciones
-  
-- **Horizontes Temporales** $(H_T)$: Factor de largo plazo
-  - Descuento temporal para resiliencia sostenida
+1. **Persistencia** $(S_D)$ - Mide distancia en espacio latente entre histórico y futuro
+
+$$S_D = 1 - \frac{d(z_{\text{future}}, z_{\text{base}})}{|z_{\text{base}}|}$$
+
+2. **Identidad de Régimen** $(S_C)$ - Probabilidad de mantener el mismo cluster climático
+
+$$S_C = P(c_{\text{future}} = c_{\text{base}})$$
+
+3. **Cohesión Interna** $(S_E)$ - Razón de variabilidad: contracción = resiliente
+
+$$S_E = \frac{\sigma_{\text{base}}}{\sigma_{\text{future}}}$$
+
+4. **Elasticidad** $(S_{EL})$ - Rapidez de ajuste a nuevas condiciones
+
+5. **Horizontes Temporales** $(H_T)$ - Descuento temporal para resiliencia sostenida
 
 **Interpretación:**
-- IRCT $\in [0,1]$: donde 1 = máxima resiliencia, 0 = vulnerabilidad crítica
+
+- IRCT toma valores en [0,1]: donde 1 = máxima resiliencia, 0 = vulnerabilidad crítica
 - Spatial map: Identifica zonas resilientes vs vulnerables
 
 ---
