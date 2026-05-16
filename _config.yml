@@ -1,0 +1,15 @@
+theme: jekyll-theme-minimal
+title: "Caracterización de Resiliencia Climática Territorial en Valle de Hidrógeno"
+description: "Tesis de Magister: Modelado de resiliencia mediante autoencoders, clustering y análisis energético"
+author: "Idrover Díaz"
+github:
+  repository_url: https://github.com/aninotna/justh2_pipeline
+show_downloads: false
+navigation:
+  - Introduction: /01_introduction/
+  - Data Exploration: /02_data_exploration/
+  - Model Architecture: /03_model_architecture/
+  - Clustering & Resilience: /04_clustering_resilience/
+  - Results: /05_results/
+  - Validation: /06_validation/
+  - Docs: /docs/
