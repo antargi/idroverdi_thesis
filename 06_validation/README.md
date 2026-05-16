@@ -52,6 +52,12 @@ Correlation:            0.92 ± 0.04 [similar]
 
 ---
 
+## Notebooks
+
+- [03_spatial_reconstruction_analysis.ipynb](03_spatial_reconstruction_analysis.ipynb) - Análisis detallado de validación espacial
+
+---
+
 ## Validación del Clustering
 
 ### 1. Métricas Internas

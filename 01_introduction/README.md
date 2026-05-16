@@ -132,19 +132,19 @@ $$IRCT_{pixel,escenario} = 0.30 \cdot S_D + 0.25 \cdot S_C + 0.20 \cdot S_E + 0.
 
 **Componentes:**
 
-- **Persistencia** ($S_D$): $1 - \frac{\lVert z_{\text{future}} - z_{\text{base}} \rVert}{\lVert z_{\text{base}} \rVert}$
+- **Persistencia** $(S_D)$: $1 - \frac{d(z_\text{future}, z_\text{base})}{|z_\text{base}|}$
   - Mide distancia en espacio latente entre histórico y futuro
   
-- **Identidad de Régimen** ($S_C$): $P(\text{cluster}_{\text{future}} = \text{cluster}_{\text{base}})$
+- **Identidad de Régimen** $(S_C)$: $P(c_\text{future} = c_\text{base})$
   - Probabilidad de mantener el mismo cluster climático
   
-- **Cohesión Interna** ($S_E$): $\frac{\sigma_{\text{base}}}{\sigma_{\text{future}}}$
+- **Cohesión Interna** $(S_E)$: $\frac{\sigma_\text{base}}{\sigma_\text{future}}$
   - Razón de variabilidad: contracción = resiliente
   
-- **Elasticidad** ($S_{EL}$): Velocidad de re-estabilización
+- **Elasticidad** $(S_{EL})$: Velocidad de re-estabilización
   - Rapidez de ajuste a nuevas condiciones
   
-- **Horizontes Temporales** ($H_T$): Factor de largo plazo
+- **Horizontes Temporales** $(H_T)$: Factor de largo plazo
   - Descuento temporal para resiliencia sostenida
 
 **Interpretación:**

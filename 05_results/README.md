@@ -23,7 +23,15 @@ Visualización: Cinco clusters en Valle de Aconcagua
 - **Cluster 4 (Naranja)**: Valle Bajo - Cálido-Seco (IRCT: 0.42)
 - **Cluster 5 (Rojo)**: Depresión Central - Cálido-Extremos (IRCT: 0.28)
 
-**Coherencia espacial:** Silhouette score = 0.62 ✓
+**Coherencia espacial:** Silhouette score = 0.62
+
+### Notebooks en esta Sección
+
+- [11_cluster_metrics_demo.ipynb](11_cluster_metrics_demo.ipynb) - Métricas de clustering (Silhouette, Davies-Bouldin)
+- [12_compare_heatmaps_clean.ipynb](12_compare_heatmaps_clean.ipynb) - Visualización comparativa de escenarios
+- [13_sensitive_analysis.ipynb](13_sensitive_analysis.ipynb) - Análisis de sensibilidad de pesos IRCT
+
+---
 
 ### 2. IRCT Proyectado (SSP2-4.5)
 
